@@ -1,0 +1,16 @@
+{
+  "model": "BAAI/bge-m3",
+  "language": "gu",
+  "num_queries": 999,
+  "corpus_size": 999,
+  "mrr": 0.8335902334081124,
+  "recall@1": 0.7677677677677678,
+  "recall@5": 0.913913913913914,
+  "recall@10": 0.9369369369369369,
+  "recall@20": 0.9529529529529529,
+  "recall@100": 0.978978978978979,
+  "corpus_encoding_minutes": 6.390026406447093,
+  "query_encoding_minutes": 0.9151260534922282,
+  "retrieval_seconds": 0.011009693145751953,
+  "total_minutes": 7.374973165988922
+}
