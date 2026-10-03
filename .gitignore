@@ -1,0 +1,161 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==============================
+# Jupyter
+# ==============================
+
+.ipynb_checkpoints/
+
+# Jupyter temporary files
+*.nbconvert.ipynb
+
+
+# ==============================
+# VS Code
+# ==============================
+
+.vscode/
+*.code-workspace
+
+
+# ==============================
+# Hugging Face / ML caches
+# ==============================
+
+# Hugging Face cache
+.cache/
+huggingface/
+.huggingface/
+
+# Common HF cache locations
+**/.cache/huggingface/
+**/.cache/huggingface/hub/
+
+
+# ==============================
+# Model files
+# ==============================
+
+# Don't commit downloaded models
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.gguf
+
+
+# ==============================
+# Embeddings
+# ==============================
+
+# Generated embedding files
+embeddings/
+
+*.npy
+*.npz
+
+
+# ==============================
+# Dataset / data files
+# ==============================
+
+# Don't commit downloaded datasets
+data/
+
+datasets/
+
+*.parquet
+*.arrow
+*.feather
+
+# Large CSV files
+# Uncomment if your result/data CSVs become large
+# *.csv
+
+
+# ==============================
+# Results
+# ==============================
+
+# Keep the results directory itself but ignore generated files
+# results/
+
+# If you only want to ignore temporary outputs:
+results/*.tmp
+results/*.log
+
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+
+# ==============================
+# OS files
+# ==============================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+
+# macOS
+.DS_Store
+
+
+# ==============================
+# Environment / secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+*.key
+*.pem
+
+
+# ==============================
+# Temporary files
+# ==============================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Python test/cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
