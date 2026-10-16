@@ -1,4 +1,3 @@
-
 from pathlib import Path
 import pandas as pd
 
@@ -12,7 +11,6 @@ for lang in LANGS:
     benchmark = pd.read_parquet(benchmark_path)
     distractors = pd.read_parquet(distractor_path)
 
-    # Normalize text consistently before checking overlap.
     gold_passages = set(
         benchmark["passage"].dropna().astype(str).str.strip()
     )
